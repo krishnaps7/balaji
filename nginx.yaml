@@ -1,0 +1,8 @@
+iapiVersion: v1
+kind: Pod
+metadata:
+  name: nginx-krishna
+spec:
+  containers:
+  - name: test-image
+    image: nginx
